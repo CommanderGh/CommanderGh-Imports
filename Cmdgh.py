@@ -36,14 +36,14 @@ if 'orders' not in st.session_state:
 # Sample product data
 def load_products():
     products = [
-        {"id": 1, "name": "Wireless Headphones", "price": 79.99, "category": "Electronics", "stock": 50, "image": "🎧"},
-        {"id": 2, "name": "Smartphone", "price": 899.99, "category": "Electronics", "stock": 30, "image": "📱"},
-        {"id": 3, "name": "Running Shoes", "price": 89.99, "category": "Fashion", "stock": 100, "image": "👟"},
-        {"id": 4, "name": "Coffee Maker", "price": 49.99, "category": "Home", "stock": 40, "image": "☕"},
-        {"id": 5, "name": "Water Bottle", "price": 24.99, "category": "Home", "stock": 200, "image": "💧"},
-        {"id": 6, "name": "Backpack", "price": 59.99, "category": "Fashion", "stock": 75, "image": "🎒"},
-        {"id": 7, "name": "Fitness Tracker", "price": 79.99, "category": "Electronics", "stock": 60, "image": "⌚"},
-        {"id": 8, "name": "Desk Lamp", "price": 34.99, "category": "Home", "stock": 45, "image": "💡"}
+        {"id": 1, "name": "Wireless Headphones", "price": 100.00, "category": "Electronics", "stock": 50, "image": "🎧"},
+        {"id": 2, "name": "Smartphone", "price": 1500.00, "category": "Electronics", "stock": 30, "image": "📱"},
+        {"id": 3, "name": "Running Shoes", "price": 150.00, "category": "Fashion", "stock": 100, "image": "👟"},
+        {"id": 4, "name": "Shirts Unisex", "price": 49.00, "category": "Fashion", "stock": 40, "image": "👕"},
+        {"id": 5, "name": "Water Bottle", "price": 30.00, "category": "Home", "stock": 200, "image": "💧"},
+        {"id": 6, "name": "Ladies pouches", "price": 50.00, "category": "Fashion", "stock": 75, "image": "🎒"},
+        {"id": 7, "name": "Fitness Tracker", "price": 90.00, "category": "Electronics", "stock": 60, "image": "⌚"},
+        {"id": 8, "name": "Juice Extractor", "price": 470.00, "category": "Home", "stock": 45, "image": "🍹"}
     ]
     return products
 
@@ -485,4 +485,5 @@ def main():
                 st.error("You don't have permission to access this page.")
 
 if __name__ == "__main__":
+
     main()
