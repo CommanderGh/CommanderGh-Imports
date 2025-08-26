@@ -80,7 +80,7 @@ initialize_users()
 
 # Authentication UI
 def authentication_page():
-    st.title("🛒 E-Commerce Hub")
+    st.title("🛒 CommanderGH online Shopping ")
     
     auth_option = st.radio("Select Option", ["Login", "Register"])
     
@@ -487,3 +487,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
